@@ -58,9 +58,15 @@ cambiare ambiente.
 ## 3 · Loop quotidiano
 
 ```
+portal notifications list --unread        # cosa è successo per te (parti da qui)
 portal ticket list --json                 # tutti i tuoi ticket
 portal ticket list --sla breached         # prima i violati
 ```
+
+Le notifiche dicono COSA è successo e DOVE (nuovo ticket di un tuo cliente,
+risposta nostra, esito di una proposta), mai il testo: aprile con `portal ticket get`
+o `portal commesse get`, poi `portal notifications read <id…>` (o `--all`). Se una
+resta non letta qualche minuto, all'utente arriva un riepilogo email.
 
 Ordine di lavoro:
 

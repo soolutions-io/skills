@@ -129,6 +129,7 @@ portal skill update                    aggiorna QUESTA skill dal server
 portal task list|get|create|check|status|claim|release|comments|comment
 portal agent next|wait|status|report|register [--json]
 portal chat poll .|send . "…"|history|team|mentions [--unread]
+portal notifications list [--unread] · read <id…>|--all · settings [--email on|off]
 portal ticket list|get|state|resolve|requeue|reply [--audience] [--reopen]  supporto
 portal comment retract <cid> [--review] · rescope <cid> --audience …   ritiro silenzioso
 portal reviews                         proposte da decidere (admin/manager)
