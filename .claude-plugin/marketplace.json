@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "soolutions",
+  "description": "Skill Claude Code per usare i prodotti Soolutions: gestionale commesse, ticket di supporto, onboarding guidato.",
+  "owner": {
+    "name": "Soolutions"
+  },
+  "plugins": [
+    {
+      "name": "portal",
+      "description": "Il gestionale Soolutions dal terminale: setup guidato della CLI `portal`, lavoro su commesse/requisiti/task, assistente per i partner (ticket dei clienti finali, SLA, proposte).",
+      "author": {
+        "name": "Soolutions"
+      },
+      "category": "productivity",
+      "homepage": "https://customers.soolutions.io/docs/cli",
+      "source": "./plugins/portal"
+    }
+  ]
+}

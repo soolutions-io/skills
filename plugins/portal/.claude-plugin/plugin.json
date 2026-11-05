@@ -1,0 +1,9 @@
+{
+  "name": "portal",
+  "description": "Il gestionale Soolutions dal terminale: setup guidato, commesse, task, ticket e proposte dei partner",
+  "version": "1.30.0",
+  "author": {
+    "name": "Soolutions"
+  },
+  "homepage": "https://customers.soolutions.io/docs/cli"
+}
